@@ -1,0 +1,13 @@
+{
+  "model_id": "BAAI/bge-small-zh-v1.5",
+  "revision": "7999e1d3359715c523056ef9478215996d62a620",
+  "model_dir": ".models/bge-small-zh-v1.5",
+  "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+  "pooling": "cls",
+  "normalize": true,
+  "body_window_tokens": 360,
+  "overlap_tokens": 48,
+  "prefix_tokens": 64,
+  "max_input_tokens": 512,
+  "dimension": 512
+}

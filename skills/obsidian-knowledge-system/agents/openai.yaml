@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian 知识系统"
+  short_description: "整理与维护 Raw/Wiki、本机检索、资料更新和情绪回顾的完整工作流"
+  default_prompt: "使用 $obsidian-knowledge-system，核对我的 Obsidian 知识系统并完成这次指定的整理或维护任务。"

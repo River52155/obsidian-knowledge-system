@@ -1,0 +1,9 @@
+{
+  "id": "personal-memory-bridge",
+  "name": "我的资料",
+  "version": "0.1.0",
+  "minAppVersion": "1.12.0",
+  "description": "查找本机已索引的个人笔记，查看出处并定位原文。与现有 Claudian 聊天共用检索。",
+  "author": "River52155",
+  "isDesktopOnly": true
+}

@@ -1,0 +1,14 @@
+**/.venv/
+**/.models/
+**/data/
+**/outputs/
+**/__pycache__/
+**/node_modules/
+**/.DS_Store
+.env
+.env.*
+*.sqlite3
+*.npz
+.obsidian/
+.claude/
+*.log

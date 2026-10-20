@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "collections": [
+    {
+      "id": "technical",
+      "description": "技术示例集合",
+      "include_prefixes": [
+        "计算机和AI"
+      ],
+      "include_paths": [],
+      "exclude_prefixes": []
+    },
+    {
+      "id": "personal",
+      "description": "个人记录示例集合",
+      "include_prefixes": [
+        "我的存在"
+      ],
+      "include_paths": [],
+      "exclude_prefixes": []
+    },
+    {
+      "id": "allowed",
+      "description": "已允许的示例目录",
+      "include_prefixes": [
+        "wiki",
+        "我的存在",
+        "世界知识",
+        "运动健身（大学）",
+        "计算机和AI",
+        "英语",
+        "图谱索引"
+      ],
+      "include_paths": [],
+      "exclude_prefixes": []
+    }
+  ]
+}

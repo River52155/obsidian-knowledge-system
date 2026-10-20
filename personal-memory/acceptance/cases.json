@@ -1,0 +1,137 @@
+{
+  "note": "Synthetic template only; no private note text or production expected targets",
+  "cases": [
+    {
+      "label": "原词",
+      "query": "测试星光观察0",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "近义",
+      "query": "测试星光观察1",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "方法",
+      "query": "测试星光观察2",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "经历/摘录",
+      "query": "测试星光观察3",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "跨时间",
+      "query": "测试星光观察4",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "多主题",
+      "query": "测试星光观察5",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "无依据",
+      "query": "测试星光观察6",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "补查偏题",
+      "query": "测试星光观察7",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "重复补查",
+      "query": "测试星光观察8",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "来源变化",
+      "query": "测试星光观察9",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "普通问答只读",
+      "query": "测试星光观察10",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    },
+    {
+      "label": "明确保存",
+      "query": "测试星光观察11",
+      "mode": "keyword",
+      "targets": [
+        {
+          "path": "wiki/fixtures/星光观察.md"
+        }
+      ],
+      "acceptance": "synthetic fixture; chat/control/save require separate acceptance"
+    }
+  ]
+}

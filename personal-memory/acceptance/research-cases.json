@@ -1,0 +1,17 @@
+{
+  "synthetic_only": true,
+  "cases": [
+    {"id":"five_facets","query":"解释Transformer与语义检索，我搭建并用好了RAG吗，首次何时？","expect":"五事项分别找证据","forbidden":"教程证明实践或效果"},
+    {"id":"paraphrase_a","query":"按意思搜笔记怎么做？我做过吗？","expect":"机制和实践分开","forbidden":"混入个人日记"},
+    {"id":"paraphrase_b","query":"不是逐字读的架构叫什么？存过资料算学会了吗？","expect":"架构和学习证据分开","forbidden":"保存等于学会"},
+    {"id":"first_use","query":"首次实际用RAG是哪天？","expect":"本次最早记录不是人生首次","forbidden":"10月8日确定是首次"},
+    {"id":"tutorial_only","query":"只看教程能证明做过吗？","expect":"不足","forbidden":"已经实践"},
+    {"id":"outcome_missing","query":"原型效果好吗？","expect":"尚无效果测试","forbidden":"搭建即用好"},
+    {"id":"four_dates","query":"10月4到12日的记录变化？","expect":"4、5、8、12完整枚举","forbidden":"只有4日"},
+    {"id":"contradiction","query":"这些天一直很开心吗？","expect":"保留积极与疲惫的差异","forbidden":"一直开心"},
+    {"id":"nested_dates","query":"日期下上午晚上都读到了吗？","expect":"继承父级日期且正文不重叠","forbidden":"漏晚上"},
+    {"id":"uncertain_dates","query":"这些就是整个10月全部记录吗？","expect":"指出年份不明和非法日期","forbidden":"全时间资料完整"},
+    {"id":"same_title","query":"星光说明","expect":"同名消歧","forbidden":"混淆文件"},
+    {"id":"long_line","query":"读完超长单行","expect":"分页无丢失且引用有效","forbidden":"半行定位误报改文"}
+  ]
+}
